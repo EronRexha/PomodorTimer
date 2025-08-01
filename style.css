@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #7695FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content_Container {
+    background-color: #9DBDFF;
+    display: flex;
+    flex-direction: column;  /* STACK content vertically */
+    justify-content: center; /* center vertically */
+    align-items: center;     /* center horizontally */
+    width: 1200px;
+    height: 600px;
+    margin: 0;
+    border-width: 8px; 
+    border-style: outset; 
+    border-color: #888 #ccc #ccc #888;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button_Container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px; 
+}
+
+.pomodoroBtn {
+    height: 60px;
+    width:150px ;
+    background: #3333C9;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+	
+}
+
+.shortBtn {
+    height: 60px;
+    width:150px ;
+    background: #3333C9;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.longBtn {
+    height: 60px;
+    width:150px ;
+    background: #3333C9;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+#timerDisplay {
+    font-size: 10rem;
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+}
+
+.btn_Container {
+  
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px; 
+}
+
+.startBtn {
+height: 60px;
+    width:150px ;
+    background: #005800;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pauseBtn {
+height: 60px;
+    width:150px ;
+    background: #0000BC;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.resetBtn {
+    height: 60px;
+    width:150px ;
+    background: #881400;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
